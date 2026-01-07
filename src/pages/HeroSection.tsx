@@ -5,7 +5,7 @@ const HeroSection = () => {
         <Box
             sx={{
                 height: "90vh",
-                backgroundImage:"url('/src/assets/grillade.jpg')",
+                backgroundImage:"url('/src/assets/images/grillade.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 display: "flex",

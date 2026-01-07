@@ -6,7 +6,7 @@ const About = () => {
             <Box
                 sx={{
                     height: "40vh",
-                    backgroundImage: "url('/src/assets/Akoho.jpg')",
+                    backgroundImage: "url('/src/assets/images/Akoho.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     display: "flex",
