@@ -3,10 +3,10 @@ import GalleryImageCard from "../components/GalleryImageCard";
 
 
 const images = [
-    {src: "/src/assets/images/Akoho.jpg", title: "Poulet grillé"},
-    {src: "/src/assets/images/Eshine.jpg", title: "Echine de Porc"},
-    {src: "/src/assets/images/ribs.jpg", title: "Ribs de porc"},
-    {src: "/src/assets/images/Sosisy.jpg", title: "Saucisse et Brochette de viande"},
+    {src: "/images/Akoho.jpg", title: "Poulet grillé"},
+    {src: "/images/Eshine.jpg", title: "Echine de Porc"},
+    {src: "/images/ribs.jpg", title: "Ribs de porc"},
+    {src: "/images/Sosisy.jpg", title: "Saucisse et Brochette de viande"},
 ];
 
 const Gallery = () => {
@@ -15,7 +15,7 @@ const Gallery = () => {
             <Box
                 sx={{
                     height: "35vh",
-                    backgroundImage: "url('/src/assets/images/Akoho.jpg')",
+                    backgroundImage: "url('/images/Akoho.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     display: "flex",
